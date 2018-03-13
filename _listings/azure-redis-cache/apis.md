@@ -23,7 +23,7 @@ apis:
   tags: Schedules
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/schedules/master/_listings/azure-redis-cache/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-cache-redis-name-patchschedules-default-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/schedules/master/_listings/azure-redis-cache/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-cache-redis-name-patchschedules-default-delete.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/redis-cache/
