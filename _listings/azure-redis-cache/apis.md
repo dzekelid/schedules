@@ -24,17 +24,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/azure-redis-cache/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-cache-redis-name-patchschedules-default-get.md
-- name: Azure Redis Cache API Patch Schedules Delete
-  description: Deletes the patching schedule of a redis cache (requires Premium SKU).
+- name: Azure Redis Cache API Patch Schedules Get
+  description: Gets the patching schedule of a redis cache (requires Premium SKU).
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-redis-cache-performance.png
   humanURL: https://azure.microsoft.com/en-us/services/cache/
   baseURL: http:://management.azure.com//
   tags: Schedules
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/azure-redis-cache/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-cache-redis-name-patchschedules-default-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/azure-redis-cache/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-cache-redis-name-patchschedules-default-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/azure-redis-cache/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-cache-redis-name-patchschedules-default-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/azure-redis-cache/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-cache-redis-name-patchschedules-default-get-postman.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/redis-cache/
