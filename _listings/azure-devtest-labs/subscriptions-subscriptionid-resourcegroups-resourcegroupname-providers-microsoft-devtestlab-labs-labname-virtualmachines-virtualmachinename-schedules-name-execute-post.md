@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: DevTestLabsClient
-  description: The DevTest Labs Client.
+  title: Azure DevTest Labs API Virtual Machine Schedules Execute
+  description: Execute a schedule. This operation can take a while to complete.
   version: 1.0.0
 host: management.azure.com
 basePath: /
