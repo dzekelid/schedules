@@ -26,7 +26,28 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/azure-devtest-labs/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-devtestlab-schedules-name-retarget-post.md
+- name: Azure DevTest Labs API Global Schedules List By Subscription
+  description: List schedules in a subscription.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-devtest-integrate.png
+  humanURL: https://azure.microsoft.com/en-us/services/devtest-lab/
+  baseURL: http:://management.azure.com//
+  tags: Schedules
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/azure-devtest-labs/subscriptions-subscriptionid-providers-microsoft-devtestlab-schedules-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/azure-devtest-labs/subscriptions-subscriptionid-providers-microsoft-devtestlab-schedules-get-postman.md
 x-common:
+- type: x-documentation
+  url: https://docs.microsoft.com/en-us/azure/devtest-lab/
+- type: x-pricing
+  url: https://azure.microsoft.com/en-us/pricing/details/devtest-lab/
+- type: x-service-level-agreements
+  url: https://azure.microsoft.com/en-us/support/legal/sla/devtest-lab/
+- type: x-status
+  url: https://azure.microsoft.com/en-us/status/
+- type: x-website
+  url: https://azure.microsoft.com/en-us/services/devtest-lab/
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/devtest-lab/
 - type: x-pricing
