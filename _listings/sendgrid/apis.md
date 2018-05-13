@@ -36,11 +36,11 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/sendgrid/campaigns-campaign-id-schedules-test-post.md
-- name: SendGrid Add Campaigns Campaign  Schedules Now
+- name: SendGrid Add Campaigns Campaign  Schedules Test
   description: |-
-    **This endpoint allows you to immediately send a campaign at the time you make the API call.**
+    **This endpoint allows you to send a test campaign.**
 
-    Normally a POST would have a request body, but since this endpoint is telling us to send a resource that is already created, a request body is not needed.
+    To send to multiple addresses, use an array for the JSON "to" value ["one@address","two@address"]
 
     For more information:
 
@@ -51,7 +51,7 @@ apis:
   tags: Schedules
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/sendgrid/campaigns-campaign-id-schedules-now-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/sendgrid/campaigns-campaign-id-schedules-test-post.md
 x-common:
 - type: x-net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html
