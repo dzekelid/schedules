@@ -36,9 +36,9 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/sendgrid/campaigns-campaign-id-schedules-test-post.md
-- name: SendGrid Get Campaigns Campaign  Schedules
+- name: SendGrid Patch Campaigns Campaign  Schedules
   description: |-
-    **This endpoint allows you to retrieve the date and time that the given campaign has been scheduled to be sent.**
+    **This endpoint allows to you change the scheduled time and date for a campaign to be sent.**
 
     For more information:
 
@@ -49,9 +49,7 @@ apis:
   tags: Schedules
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/sendgrid/campaigns-campaign-id-schedules-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/sendgrid/campaigns-campaign-id-schedules-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/sendgrid/campaigns-campaign-id-schedules-patch.md
 x-common:
 - type: x-net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html
