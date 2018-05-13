@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: RedisManagementClient
-  description: REST API for Azure Redis Cache Service.
+  title: Azure Redis Cache API Patch Schedules Get
+  description: Gets the patching schedule of a redis cache (requires Premium SKU).
   version: 1.0.0
 host: management.azure.com
 basePath: /
