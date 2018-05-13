@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: DevTestLabsClient
-  description: The DevTest Labs Client.
+  title: Azure DevTest Labs API Schedules Create Or Update
+  description: Create or replace an existing schedule.
   version: 1.0.0
 host: management.azure.com
 basePath: /
