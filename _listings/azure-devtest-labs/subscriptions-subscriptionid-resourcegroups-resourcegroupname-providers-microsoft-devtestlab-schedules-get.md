@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: DevTestLabsClient
-  description: The DevTest Labs Client.
+  title: Azure DevTest Labs API Global Schedules List By Resource Group
+  description: List schedules in a resource group.
   version: 1.0.0
 host: management.azure.com
 basePath: /
