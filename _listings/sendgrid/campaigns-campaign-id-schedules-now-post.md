@@ -1,11 +1,15 @@
 ---
 swagger: "2.0"
 info:
-  title: SendGrid
-  description: 'The SendGrid Web API V3 Documentation. This is the entirety of the
-    documented v3 endpoints. We have updated all the descriptions, parameters, requests,
-    and responses. Authentication Every endpoint requires Authentication in the form
-    of an Authorization Header: Authorization: Bearer API_KEY'
+  title: SendGrid Add Campaigns Campaign  Schedules Now
+  description: |-
+    **This endpoint allows you to immediately send a campaign at the time you make the API call.**
+
+    Normally a POST would have a request body, but since this endpoint is telling us to send a resource that is already created, a request body is not needed.
+
+    For more information:
+
+    * [User Guide > Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html)
   version: 1.0.0
 host: api.sendgrid.com
 basePath: /v3
