@@ -4,7 +4,7 @@ x-collection-name: Washington Metropolitan Area Transit Authority
 x-complete: 1
 info:
   title: Bus Route and Stop Methods
-  description: bus-stop-information-route-and-schedule-data-and-bus-positions
+  description: bus-stop-information-route-and-schedule-data-and-bus-positions-
   version: 1.0.0
 host: api.wmata.com
 basePath: /Bus.svc
