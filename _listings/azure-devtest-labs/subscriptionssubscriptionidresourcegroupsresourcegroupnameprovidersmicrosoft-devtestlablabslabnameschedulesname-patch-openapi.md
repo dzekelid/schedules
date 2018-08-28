@@ -15,32 +15,6 @@ produces:
 consumes:
 - application/json
 paths:
-  /subscriptions/{subscriptionId}/providers/Microsoft.DevTestLab/schedules:
-    get:
-      summary: Global Schedules List By Subscription
-      description: List schedules in a subscription.
-      operationId: GlobalSchedules_ListBySubscription
-      x-api-path-slug: subscriptionssubscriptionidprovidersmicrosoft-devtestlabschedules-get
-      parameters:
-      - in: query
-        name: $expand
-        description: Specify the $expand query
-      - in: query
-        name: $filter
-        description: The filter to apply to the operation
-      - in: query
-        name: $orderby
-        description: The ordering expression for the results, using OData notation
-      - in: query
-        name: $top
-        description: The maximum number of resources to return from the operation
-      - in: query
-        name: No Name
-      responses:
-        200:
-          description: OK
-      tags:
-      - Global Schedules
   /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevTestLab/labs/{labName}/schedules:
     get:
       summary: Schedules List

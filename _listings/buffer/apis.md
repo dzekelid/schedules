@@ -7,48 +7,71 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/994-buffer
 x-kinRank: "7"
 x-alexaRank: "2789"
 tags: Schedules
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/buffer/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Buffer Post Profiles Schedules Update Mediatypeextension
-  x-api-slug: buffer
+- name: Bufferapp - Post Profiles Schedules Update Mediatypeextension
+  x-api-slug: profilesidschedulesupdatemediatypeextension-post
   description: Post Profiles Schedules Update Mediatypeextension
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/994-buffer.jpg
   humanURL: http://bufferapp.com
-  baseURL: https://api.bufferapp.com//1///profiles/{id}/schedules/update{mediaTypeExtension}
-  tags: Profiles,Id,Schedules,UpdatemediaTypeExtension
+  baseURL: https://api.bufferapp.com//1/
+  tags: Social, Social Sharing, Social, Technology, SaaS, Mobile, internet, API Provider,
+    API Service Provider, Profiles, Schedules, Schedules, Service API, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/buffer/profilesidschedulesupdatemediatypeextension-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/buffer/profilesidschedulesupdatemediatypeextension-post-openapi.md
-- name: Buffer Get Profiles Schedules Mediatypeextension
-  x-api-slug: buffer
+- name: Bufferapp - Get Profiles Schedules Mediatypeextension
+  x-api-slug: profilesidschedulesmediatypeextension-get
   description: Returns details of the posting schedules associated with a social media
     profile.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/994-buffer.jpg
   humanURL: http://bufferapp.com
-  baseURL: https://api.bufferapp.com//1///profiles/{id}/schedules{mediaTypeExtension}
-  tags: Profiles,Id,SchedulesmediaTypeExtension
+  baseURL: https://api.bufferapp.com//1/
+  tags: Social, Social Sharing, Social, Technology, SaaS, Mobile, internet, API Provider,
+    API Service Provider, Profiles, Schedules, Schedules, Service API, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/buffer/profilesidschedulesmediatypeextension-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/buffer/profilesidschedulesmediatypeextension-get-openapi.md
-- name: Buffer
-  x-api-slug: buffer
-  description: Buffer is an intuitive social media management platform trusted by
-    brands, businesses, agencies, and individuals to help drive social media results.
+- name: Bufferapp - Get Profiles Schedules Mediatypeextension
+  x-api-slug: profilesidschedulesmediatypeextension-get
+  description: Returns details of the posting schedules associated with a social media
+    profile.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/994-buffer.jpg
   humanURL: http://bufferapp.com
   baseURL: https://api.bufferapp.com//1/
-  tags: Schedules
+  tags: Social, Social Sharing, Social, Technology, SaaS, Mobile, internet, API Provider,
+    API Service Provider, Profiles, Schedules, Schedules, Service API, Relative Data
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/buffer/profilesidschedulesmediatypeextension-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/buffer/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/buffer/profilesidschedulesmediatypeextension-get-openapi.md
+- name: Bufferapp - Get Profiles Schedules Mediatypeextension
+  x-api-slug: profilesidschedulesmediatypeextension-get
+  description: Returns details of the posting schedules associated with a social media
+    profile.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/994-buffer.jpg
+  humanURL: http://bufferapp.com
+  baseURL: https://api.bufferapp.com//1/
+  tags: Social, Social Sharing, Social, Technology, SaaS, Mobile, internet, API Provider,
+    API Service Provider, Profiles, Schedules, Schedules, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/buffer/profilesidschedulesmediatypeextension-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/buffer/profilesidschedulesmediatypeextension-get-openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://browshot.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://buffer.stack.network
 - type: x-base
   url: https://api.bufferapp.com/
 - type: x-blog

@@ -1,10 +1,8 @@
----
 swagger: "2.0"
 x-collection-name: SendGrid
 x-complete: 1
 info:
   title: SendGrid
-  description: the-sendgrid-web-api-v3-documentation--this-is-the-entirety-of-the-documented-v3-endpoints--we-have-updated-all-the-descriptions-parameters-requests-and-responses--authentication-every-endpoint-requires-authentication-in-the-form-of-an-authorization-header-authorization-bearer-api-key
   version: 1.0.0
 host: api.sendgrid.com
 basePath: /v3
@@ -166,4 +164,106 @@ paths:
       - ""
       - Schedules
       - Test
----
+  /user/scheduled_sends:
+    get:
+      summary: Get User Scheduled Sends
+      description: |-
+        **This endpoint allows you to retrieve all cancel/paused scheduled send information.**
+
+        The Cancel Scheduled Sends feature allows the customer to cancel a scheduled send based on a Batch ID included in the SMTPAPI header. Scheduled sends cancelled less than 10 minutes before the scheduled time are not guaranteed to be cancelled.
+      operationId: user.scheduled_sends.get
+      x-api-path-slug: userscheduled-sends-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Email
+      - User
+      - Scheduled
+      - Sends
+    post:
+      summary: Add User Scheduled Sends
+      description: |-
+        **This endpoint allows you to cancel or pause an email that has been scheduled to be sent.**
+
+        If the maximum number of cancellations/pauses are added, HTTP 400 will
+        be returned.
+
+        The Cancel Scheduled Sends feature allows the customer to cancel a scheduled send based on a Batch ID included in the SMTPAPI header. Scheduled sends cancelled less than 10 minutes before the scheduled time are not guaranteed to be cancelled.
+      operationId: user.scheduled_sends.post
+      x-api-path-slug: userscheduled-sends-post
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Email
+      - User
+      - Scheduled
+      - Sends
+  /user/scheduled_sends/{batch_id}:
+    delete:
+      summary: Delete User Scheduled Sends Batch
+      description: |-
+        **This endpoint allows you to delete the cancellation/pause of a scheduled send.**
+
+        The Cancel Scheduled Sends feature allows the customer to cancel a scheduled send based on a Batch ID included in the SMTPAPI header. Scheduled sends cancelled less than 10 minutes before the scheduled time are not guaranteed to be cancelled.
+      operationId: user.scheduled_sends.batch_id.delete
+      x-api-path-slug: userscheduled-sendsbatch-id-delete
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Email
+      - User
+      - Scheduled
+      - Sends
+      - Batch
+    get:
+      summary: Get User Scheduled Sends Batch
+      description: |-
+        **This endpoint allows you to retrieve the cancel/paused scheduled send information for a specific `batch_id`.**
+
+        The Cancel Scheduled Sends feature allows the customer to cancel a scheduled send based on a Batch ID included in the SMTPAPI header. Scheduled sends cancelled less than 10 minutes before the scheduled time are not guaranteed to be cancelled.
+      operationId: user.scheduled_sends.batch_id.get
+      x-api-path-slug: userscheduled-sendsbatch-id-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Email
+      - User
+      - Scheduled
+      - Sends
+      - Batch
+    patch:
+      summary: Patch User Scheduled Sends Batch
+      description: |-
+        **This endpoint allows you to update the status of a scheduled send for the given `batch_id`.**
+
+        The Cancel Scheduled Sends feature allows the customer to cancel a scheduled send based on a Batch ID included in the SMTPAPI header. Scheduled sends cancelled less than 10 minutes before the scheduled time are not guaranteed to be cancelled.
+      operationId: user.scheduled_sends.batch_id.patch
+      x-api-path-slug: userscheduled-sendsbatch-id-patch
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Email
+      - User
+      - Scheduled
+      - Sends
+      - Batch

@@ -1,0 +1,1059 @@
+{
+	"name": "Streadata.io API Gallery - Schedules",
+	"description": "This is a repository of schedules APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/schedules.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-28",
+	"url": "http://schedules.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Urban Airship",
+			"x-api-slug": "urban-airship",
+			"description": "A market-leading mobile app engagement, mobile analytics, mobile data integration and mobile wallet marketing solution.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/75-urban-airship.jpg",
+			"humanURL": "http://urbanairship.com/",
+			"baseURL": "https://go.urbanairship.com//api/",
+			"tags": "Schedules",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/urban-airship/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "SendGrid",
+			"x-api-slug": "sendgrid",
+			"description": "Delivering your transactional and marketing emails through the worlds largest cloud-based email delivery platform. Send with confidence.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg",
+			"humanURL": "http://sendgrid.com",
+			"baseURL": "https:///",
+			"tags": "Schedules",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/sendgrid/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Iron",
+			"x-api-slug": "iron",
+			"description": "Iron.io provides massively scalable cloud application services. Available on multiple platforms and clouds, Iron.io products eliminate the need to worry about managing and scaling infrastructure, letting developers focus on building great applications.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/217-iron-io.jpg",
+			"humanURL": "http://www.iron.io",
+			"baseURL": "https:///",
+			"tags": "Schedules",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/iron/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Xignite",
+			"x-api-slug": "xignite",
+			"description": "Financial market data on-demand. Xignite financial Web services help build smarter websites and applications in minutes with zero up-front investment.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png",
+			"humanURL": "http://www.xignite.com",
+			"baseURL": "https://www.xignite.com/xVWAP.json/XigniteVWAP",
+			"tags": "Schedules",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/xignite/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "511 Bay Area",
+			"x-api-slug": "511-bay-area",
+			"description": "511 is your free one-stop phone and web source for up-to-the minute Bay Area traffic, transit, rideshare, bicycling, and parking information.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/logo_511_128x128_400x400.jpg",
+			"humanURL": "http://www.511.org/",
+			"baseURL": "https://api.511.org//transit",
+			"tags": "Schedules",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/511-bay-area/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Aladtec",
+			"x-api-slug": "aladtec",
+			"description": "Aladtecs system is an affordable subscription based online employee scheduling and workforce management system.  Thousands use our system throughout a variety of industries, including:   EMS  FIRE & Rescue  Law Enforcement  Dispatch  Security  Healthc...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/326-aladtec.jpg",
+			"humanURL": "http://www.aladtec.com",
+			"baseURL": "https:///",
+			"tags": "Schedules",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/aladtec/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AppointmentPlus",
+			"x-api-slug": "appointmentplus",
+			"description": "Since 2001, AppointmentPlus, an Inc. 5000 company, has been working with businesses to automate their complex customer, staff, and resource scheduling needs. To date our Scheduling Cloud API has helped more than 6,000 clients - representing 100+ indus...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/349-appointmentplus.jpg",
+			"humanURL": "http://www.appointment-plus.com/",
+			"baseURL": "https:///",
+			"tags": "Schedules",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/appointmentplus/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "PBS",
+			"x-api-slug": "pbs",
+			"description": "Watch full episodes of your favorite PBS shows, explore music and the arts, find in-depth news analysis, and more. Home to Antiques Roadshow, Frontline, NOVA, PBS Newshour, Masterpiece and many others.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/369-pbs.jpg",
+			"humanURL": "http://www.pbs.org/",
+			"baseURL": "https:///",
+			"tags": "Schedules",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/pbs/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Shiftboard",
+			"x-api-slug": "shiftboard",
+			"description": "",
+			"image": "https://s3.amazonaws.com/kinlane-productions/api-evangelist/api-butterfly.png",
+			"humanURL": "https://www.shiftdata.com/",
+			"baseURL": "https:///",
+			"tags": "Schedules",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/shiftboard/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Site24x7",
+			"x-api-slug": "site24x7",
+			"description": "Site24x7 offers both free & paid website monitoring services. Monitor websites remotely and receive instant email/sms alerts if your website becomes unavailable. View uptime & performance graphs of your website monitors.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/481-site24x7.jpg",
+			"humanURL": "https://www.site24x7.com/",
+			"baseURL": "://www.site24x7.com./",
+			"tags": "Schedules",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/site24x7/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "TickSpot",
+			"x-api-slug": "tickspot",
+			"description": "Ticks straightforward time tracking software and mobile apps help you track your time and hit your budgets. Try it free for 30 days.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/499-tickspot.jpg",
+			"humanURL": "http://www.tickspot.com/",
+			"baseURL": "https:///",
+			"tags": "Schedules",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/tickspot/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "ShiftPlanning",
+			"x-api-slug": "shiftplanning",
+			"description": "Humanity is easy to use employee scheduling software that helps your business manage shifts, schedules, payroll, time clocking and more online.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/652-shiftplanning.jpg",
+			"humanURL": "http://www.shiftplanning.com",
+			"baseURL": "https:///",
+			"tags": "Schedules",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/shiftplanning/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "MINDBODY",
+			"x-api-slug": "mindbody",
+			"description": "See how MINDBODY business management software serves gyms, spas and salons worldwide, and helps people find and book with them.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/850-mindbody.jpg",
+			"humanURL": "http://www.mindbodyonline.com",
+			"baseURL": "https:///",
+			"tags": "Schedules",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/mindbody/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "ServiceM8",
+			"x-api-slug": "servicem8",
+			"description": "ServiceM8 is a cloud based solution that helps field service organisations manage their business. ServiceM8 guides users from creating job quotes to invoicing and payment collection, and provides realtime information on what jobs are active, what quo...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/926-servicem8.jpg",
+			"humanURL": "http://www.servicem8.com/",
+			"baseURL": "https:///",
+			"tags": "Schedules",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/servicem8/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Buffer",
+			"x-api-slug": "buffer",
+			"description": "Buffer is an intuitive social media management platform trusted by brands, businesses, agencies, and individuals to help drive social media results.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/994-buffer.jpg",
+			"humanURL": "http://bufferapp.com",
+			"baseURL": "https://api.bufferapp.com//1/",
+			"tags": "Schedules",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/buffer/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "SnapAppointments",
+			"x-api-slug": "snapappointments",
+			"description": "Online appointment scheduling, appointment reminders, client database, and more for businesses and organizations of all sizes.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1159-snapappointments.jpg",
+			"humanURL": "http://www.snapappointments.com/en/api-documentation",
+			"baseURL": "https:///",
+			"tags": "Schedules",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/snapappointments/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Washington Metropolitan Area Transit Authority",
+			"x-api-slug": "washington-metropolitan-area-transit-authority",
+			"description": "Official feed of Metro/WMATA, not monitored 24/7. Report emergencies to Transit Police at (202) 962-2121. Service updates @metrorailinfo & @metrobusinfo.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1214-washington-metropolitan-area-transit-authority.jpg",
+			"humanURL": "http://wmata.com/",
+			"baseURL": "https://api.wmata.com//TrainPositions",
+			"tags": "Schedules",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/washington-metropolitan-area-transit-authority/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Texteo",
+			"x-api-slug": "texteo",
+			"description": "Digitaleo propose aux points de vente et aux enseignes des solutions dacquisition, de communication, et de fidlisation client pour gnrer du trafic en magasin.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1363-texteo.jpg",
+			"humanURL": "http://www.digitaleo.com/sms-platform/api",
+			"baseURL": "https:///",
+			"tags": "Schedules",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/texteo/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Cobot",
+			"x-api-slug": "cobot",
+			"description": "Cobot is the leading management software for coworking spaces, office hubs, and flexible workspaces around the world.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1374-cobot.jpg",
+			"humanURL": "https://www.cobot.me",
+			"baseURL": "https:///",
+			"tags": "Schedules",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/cobot/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "USC Schedule of Classes",
+			"x-api-slug": "usc-schedule-of-classes",
+			"description": "The University of Southern California is one of the worlds leading private research universities, established in 1880. An anchor institution in Los Angeles, a global center for arts, technology and international trade, USC enrolls more international s...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1494-usc-schedule-of-classes.jpg",
+			"humanURL": "http://web-app.usc.edu/ws/soc_archive/20081/ws/help/README.txt",
+			"baseURL": "https:///",
+			"tags": "Schedules",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/usc-schedule-of-classes/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Shotgun",
+			"x-api-slug": "shotgun",
+			"description": "Shotgun Software makes project management and pipeline tools that help creative studios track, schedule, review, collaborate, and manage their digital assets.          Web-based software used on 1000s of productions across 45+ countries. Sign up for a...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1586-shotgun.jpg",
+			"humanURL": "http://www.shotgunsoftware.com/developers",
+			"baseURL": "https:///",
+			"tags": "Schedules",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/shotgun/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "University of Washington",
+			"x-api-slug": "university-of-washington",
+			"description": "The UW is a leading research university with three campuses, a world-class academic medical center and extensive continuing education programs. The students, faculty and researchers who come here are driven to turn ideas into actions. They transform ou...",
+			"image": "https://s3.amazonaws.com/kinlane-productions/api-evangelist/api-butterfly.png",
+			"humanURL": "http://www.washington.edu/",
+			"baseURL": "https:///",
+			"tags": "Schedules",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/university-of-washington/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "University of Southern California",
+			"x-api-slug": "university-of-southern-california",
+			"description": "The University of Southern California is one of the worlds leading private research universities, established in 1880. An anchor institution in Los Angeles, a global center for arts, technology and international trade, USC enrolls more international s...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1740-university-of-southern-california.jpg",
+			"humanURL": "http://usc.edu",
+			"baseURL": "https:///",
+			"tags": "Schedules",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/university-of-southern-california/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Bizimply",
+			"x-api-slug": "bizimply",
+			"description": "Bizimply is the solution to employee time and attendance, scheduling, reporting and timecards with less paperwork and spreadsheets. Reduce costs by up to 10%",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1757-bizimply.jpg",
+			"humanURL": "http://www.bizimply.com",
+			"baseURL": "https:///",
+			"tags": "Schedules",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/bizimply/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "EasyCron",
+			"x-api-slug": "easycron",
+			"description": "EasyCron provides the most stable Cron Job Services. Here you can schedule cron jobs with execution logs, Email notifications, run time predictions and a bunch of other featuers!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1806-easycron.jpg",
+			"humanURL": "http://easycron.com",
+			"baseURL": "https://www.easycron.com//rest",
+			"tags": "Schedules",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/easycron/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Acuity Scheduling",
+			"x-api-slug": "acuity-scheduling",
+			"description": "Online appointment scheduling software. Clients schedule appointments, pay, and complete intake forms online 24/7. Free signup!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1947-acuity-scheduling.jpg",
+			"humanURL": "http://acuityscheduling.com/",
+			"baseURL": "https:///",
+			"tags": "Schedules",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/acuity-scheduling/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Data.Gov",
+			"x-api-slug": "data-gov",
+			"description": "data.gov is a U.S. government website launched in late May 2009 by the then Federal Chief Information Officer (CIO) of the United States, Vivek Kundra. According to its website, The purpose of data.gov is to increase public access to high value, machine readable datasets generated by the Executive Branch of the Federal Government. The site seeks to become a repository for all the information the government collects. The site would publish to the public any data that is not private or restricted for national security reasons.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png",
+			"humanURL": "http://data.gov/",
+			"baseURL": "https://catalog.data.gov//api/3/",
+			"tags": "Schedules",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/data-gov/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Pingup",
+			"x-api-slug": "pingup",
+			"description": "Pingup provides direct, convenient access to the real-time scheduling availability of local businesses nationwide, anytime, anywhere - putting the power of action into the hands of the mobile consumer. With its mobile API, Pingup enables directories and local listings providers to quickly and seamlessly bring the power of book it now to mobile consumers everywhere. With more than 30,000 properties across 200 business categories on the Pingup platform, the company continues to add thousands of new businesses to its network each month.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/pingup-logo-horizontal-preview.png",
+			"humanURL": "http://pingup.com/",
+			"baseURL": "https:///",
+			"tags": "Schedules",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/pingup/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Open Bank Project",
+			"x-api-slug": "open-bank-project",
+			"description": "The Open Bank Project is an open source API and App store for banks that empowers financial institutions to securely and rapidly enhance their digital offerings using an ecosystem of 3rd party applications and services.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/open-bank-project.png",
+			"humanURL": "https://openbankproject.com/",
+			"baseURL": "https:////open-banking/v2.0",
+			"tags": "Schedules",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/open-bank-project/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "VictorOps",
+			"x-api-slug": "victorops",
+			"description": "VictorOps incident managament software gives DevOps observability, collaboration, & real-time alerting, to build, deploy, & operate software. Learn more.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/20023-victorops.jpg",
+			"humanURL": "http://victorops.com",
+			"baseURL": "https://api.victorops.com//",
+			"tags": "Schedules",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/victorops/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Storage Gateway Service",
+			"x-api-slug": "aws-storage-gateway-service",
+			"description": "The AWS Storage Gateway service seamlessly enables hybrid storage between on-premises storage environments andthe AWS Cloud. It combines a multi-protocol storage appliance with highly efficient network connectivity toAmazon cloud storageservices, delivering local performance with virtually unlimited scale. Customers use it in remote offices and datacenters for hybrid cloud workloads, backup and restore, archive, disaster recovery, and tiered storage.The Storage Gateway virtual appliance connects seamlessly to your local infrastructure as a file server, as a volume, or as a virtual tape library (VTL). This seamless connection makes it simple for organizations to augment existing on-premises storage investments with the high scalability, extreme durability and low cost of cloud storage.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AWSStorageGateway.png",
+			"humanURL": "https://aws.amazon.com/storagegateway/",
+			"baseURL": ":///",
+			"tags": "Schedules",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/aws-storage-gateway-service/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Config",
+			"x-api-slug": "aws-config",
+			"description": "AWS Config is a fully managed service that provides you with an AWS resource inventory, configuration history, and configuration change notifications to enable security and governance. Config Rules enables you to create rules that automatically check the configuration of AWS resources recorded by AWS Config.With AWS Config, you can discover existing and deleted AWS resources, determine your overall compliance against rules, and dive into configuration details of a resource at any point in time. These capabilities enable compliance auditing, security analysis, resource change tracking, and troubleshooting.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSConfig.png",
+			"humanURL": "https://aws.amazon.com/config/",
+			"baseURL": ":///",
+			"tags": "Schedules",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/aws-config/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Key Management Service",
+			"x-api-slug": "aws-key-management-service",
+			"description": "AWS Key Management Service (KMS) is a managed service that makes it easy for you to create and control the encryption keys used to encrypt your data, and uses Hardware Security Modules (HSMs) to protect the security of your keys. AWS Key Management Service is integrated with several other AWS services to help you protect the data you store with these services. AWS Key Management Service is also integrated with AWS CloudTrail to provide you with logs of all key usage to help meet your regulatory and compliance needs.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-key-management.jpg",
+			"humanURL": "https://aws.amazon.com/kms/",
+			"baseURL": ":///",
+			"tags": "Schedules",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/aws-key-management-service/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Device Farm",
+			"x-api-slug": "aws-device-farm",
+			"description": "AWS Device Farm is an app testing service that lets you test and interact with your Android, iOS, and web apps on many devices at once, or reproduce issues on a device in real time. View video, screenshots, logs, and performance data to pinpoint and fix issues before shipping your app.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Mobile-Services_AWSDeviceFarm.png",
+			"humanURL": "https://aws.amazon.com/device-farm/",
+			"baseURL": ":///",
+			"tags": "Schedules",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/aws-device-farm/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS EC2",
+			"x-api-slug": "aws-ec2",
+			"description": "Amazon Elastic Compute Cloud is a web service that provides resizable compute capacity in the cloud. It is designed to make web-scale cloud computing easier for developers. Amazon EC2s simple web service interface allows you to obtain and configure capacity with minimal friction. It provides you with complete control of your computing resources and lets you run on Amazon&rsquo;s proven computing environment. Amazon EC2 reduces the time required to obtain and boot new server instances to minutes, allowing you to quickly scale capacity, both up and down, as your computing requirements change. Amazon EC2 changes the economics of computing by allowing you to pay only for capacity that you actually use. Amazon EC2 provides developers the tools to build failure resilient applications and isolate themselves from common failure scenarios.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png",
+			"humanURL": "https://aws.amazon.com/ec2/",
+			"baseURL": ":///",
+			"tags": "Schedules",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/aws-ec2/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Auto Scaling",
+			"x-api-slug": "aws-auto-scaling",
+			"description": "Auto Scaling helps you maintain application availability and allows you to scale yourAmazon EC2capacity up or down automatically according to conditions you define. You can use Auto Scaling to help ensure that you are running your desired number of Amazon EC2 instances. Auto Scaling can also automatically increase the number of Amazon EC2 instances during demand spikes to maintain performance and decrease capacity during lulls to reduce costs. Auto Scaling is well suited both to applications that have stable demand patterns or that experience hourly, daily, or weekly variability in usage.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2_AutoScaling.png",
+			"humanURL": "https://aws.amazon.com/autoscaling/",
+			"baseURL": ":///",
+			"tags": "Schedules",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/aws-auto-scaling/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Azure Automation",
+			"x-api-slug": "azure-automation",
+			"description": "Automate all of those frequent, time-consuming, and error-prone cloud management tasks. Azure Automation helps you focus on work that adds business value. By reducing errors and boosting efficiency, it also helps to lower your operational costs.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-automation-save-time.png",
+			"humanURL": "https://azure.microsoft.com/en-us/services/automation/",
+			"baseURL": "://management.azure.com//",
+			"tags": "Schedules",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/azure-automation/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Azure DevTest Labs",
+			"x-api-slug": "azure-devtest-labs",
+			"description": "Azure DevTest Labs makes it easy to quickly create environments to deploy and test applications. Use reusable templates and artifacts to build Windows and Linux environments while minimalizing waste and controlling costs.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-devtest-integrate.png",
+			"humanURL": "https://azure.microsoft.com/en-us/services/devtest-lab/",
+			"baseURL": "://management.azure.com//",
+			"tags": "Schedules",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/azure-devtest-labs/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Azure Redis Cache",
+			"x-api-slug": "azure-redis-cache",
+			"description": "Azure Redis Cache is based on the popular open source Redis cache. It gives you access to a secure, dedicated Redis cache, managed by Microsoft and accessible from any application within Azure.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-redis-cache-performance.png",
+			"humanURL": "https://azure.microsoft.com/en-us/services/cache/",
+			"baseURL": "://management.azure.com//",
+			"tags": "Schedules",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/azure-redis-cache/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Azure Scheduler",
+			"x-api-slug": "azure-scheduler",
+			"description": "Azure Scheduler lets you create jobs in the cloud that invoke services inside and outside of Azure&mdash;such as calling HTTP/S endpoints or posting messages to Azure Storage queues, or Azure Service Bus queues or topics. Run jobs right away, on a recurring schedule, or at some point in the future.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-scheduler-create.png",
+			"humanURL": "https://azure.microsoft.com/en-us/services/scheduler/",
+			"baseURL": "://management.azure.com//",
+			"tags": "Schedules",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/azure-scheduler/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Steem",
+			"x-api-slug": "steem",
+			"description": "A new way for publishers to monetize their online content and community, based on battle-tested blockchain technology.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26649-steemit.jpg",
+			"humanURL": "http://steemit.com",
+			"baseURL": "https://api.steemjs.com//",
+			"tags": "Schedules",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/steem/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Amadeus",
+			"x-api-slug": "amadeus",
+			"description": "Amadeus travel technology helps businesses connect to the global travel ecosystem, manage operations more effectively and serve travellers better than ever",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28139-sandbox-amadeus-com.jpg",
+			"humanURL": "https://amadeus.com",
+			"baseURL": "https://api.sandbox.amadeus.com//v1.2",
+			"tags": "Schedules",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/amadeus/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Avaza",
+			"x-api-slug": "avaza",
+			"description": "Avaza is a beautiful online software suite with modules for Project Management, Timesheets, Expenses &amp; Invoicing. Access from anywhere, with any device. Avaza is the leading all-in-one software for running client focused businesses. Avaza allows businesses of all sizes to more easily and effectively manage team projects, time tracking, expense reporting, quoting &amp; invoicing. It can be accessed simply via a web browser from anywhere in the world on any device.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28373-avaza.jpg",
+			"humanURL": "https://www.avaza.com",
+			"baseURL": "https:///",
+			"tags": "Schedules",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/avaza/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Lufthansa",
+			"x-api-slug": "lufthansa",
+			"description": "Book your flights to Germany, Italy, UK or France online at attractive low fares. Fly via Frankfurt, Munich or Zurich - Lufthansa United States of America",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28453-lh-partner.jpg",
+			"humanURL": "http://lufthansa.com",
+			"baseURL": "https://api.lufthansa.com//v1",
+			"tags": "Schedules",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/lufthansa/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Netatmo",
+			"x-api-slug": "netatmo",
+			"description": "We develop groundbreaking, intuitive and beautifully-designed connected consumer electronics. Truly smart, our innovative products provide a seamless experience that helps users create a safer, healthier and more comfortable home. We carefully design the mechanics, electronics and embedded software of all our products to the highest standards. Our mobile and web applications are designed to be simple to operate, yet deliver a rich user experience.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/netatmo-logo.png",
+			"humanURL": "http://www.netatmo.com",
+			"baseURL": "https://api.netatmo.net//api",
+			"tags": "Schedules",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/netatmo/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "PayRun",
+			"x-api-slug": "payrun",
+			"description": "An open, scalable, transparent and HMRC accredited payroll API. Put the power of payroll into your application today.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28484-payrun-io.jpg",
+			"humanURL": "http://www.payrun.io",
+			"baseURL": "https://api.test.payrun.io//",
+			"tags": "Schedules",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/payrun/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Rebilly",
+			"x-api-slug": "rebilly",
+			"description": "",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png",
+			"humanURL": "https://www.rebilly.com",
+			"baseURL": "https://api.rebilly.com//v2.1",
+			"tags": "Schedules",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/rebilly/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Transport for London Unified",
+			"x-api-slug": "transport-for-london-unified",
+			"description": "We are the integrated transport authority responsible for delivering Mayor of London Sadiq Khans strategy and commitments on transport. We run the day-to-day operation of the Capitals public transport network and manage Londons main roads.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/transport-for-london-unified-api.png",
+			"humanURL": "https://tfl.gov.uk/",
+			"baseURL": "https://api.tfl.gov.uk//",
+			"tags": "Schedules",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/transport-for-london-unified/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "BBC",
+			"x-api-slug": "bbc",
+			"description": "Breaking news, sport, TV, radio and a whole lot more. The BBC informs, educates and entertains - wherever you are, whatever your age.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28554-bbc-nitro.jpg",
+			"humanURL": "http://www.bbc.com/",
+			"baseURL": "https://programmes.api.bbc.com//nitro/api",
+			"tags": "Schedules",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/bbc/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "OnSched",
+			"x-api-slug": "onsched",
+			"description": "Build secure and scalable custom apps for Online Booking. Our flexible API provides many options for availability and booking. OnSched is an API first booking software that allows you to bring your design to life by creating your own booking flow. Using our robust API you can customize the interaction between your consumers and vendors while we do all the leg work behind the scenes. Want to offer online booking to your vendors? Ask about our white labelling solutions and rebrand our software as your own.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/onsched-logo.png",
+			"humanURL": "http://www.onsched.com",
+			"baseURL": "https://api.onsched.com//",
+			"tags": "Schedules",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/onsched/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Predix",
+			"x-api-slug": "predix",
+			"description": "Predix (IoT PaaS) helps you develop apps that connect people with industrial machines through analytics and data for better business outcomes.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png",
+			"humanURL": "https://www.predix.io",
+			"baseURL": "https:////v1",
+			"tags": "Schedules",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/predix/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Bookeo",
+			"x-api-slug": "bookeo",
+			"description": "Bookeo provides a leading online booking and scheduling system for tours, classes, and appointments, to help you save money and time. Click to learn more!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28769-www-bookeo-com.jpg",
+			"humanURL": "https://www.bookeo.com",
+			"baseURL": "https://api.bookeo.com//v2",
+			"tags": "Schedules",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/bookeo/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "RingCentral",
+			"x-api-slug": "ringcentral",
+			"description": "RingCentral, Inc. (NYSE: RNG) is a global provider of cloud enterprise unified communications and collaboration solutions. More flexible and cost-effective than legacy on-premise systems, RingCentral empowers today&rsquo;s mobile and distributed workforces to be connected anywhere and on any device through voice, video, team messaging, collaboration, SMS, conferencing, online meetings, contact center, and fax. RingCentral provides an open platform that integrates with today&rsquo;s leading business apps while giving customers the flexibility to customize their own workflows.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28867-developer-ringcentral-com.jpg",
+			"humanURL": "http://www.ringcentral.com",
+			"baseURL": "https://platform.ringcentral.com//",
+			"tags": "Schedules",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/ringcentral/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Dezrez",
+			"x-api-slug": "dezrez",
+			"description": "Cloud based estate agent software , sales & letting agent software, estate agent website design and property management software - Dezrez  Services",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg",
+			"humanURL": "https://www.dezrez.com",
+			"baseURL": "https://api.dezrez.com//",
+			"tags": "Schedules",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/dezrez/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Xibo",
+			"x-api-slug": "xibo",
+			"description": "Xibo Digital Signage is a low-cost, high performance solution to launch your business, workplace or organisation into the future. Xibo doesn&rsquo;t just replicate print media, but actively increases engagement allowing you to deliver your message more effectively than ever before.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xibo-digital-signage-logo.jpeg",
+			"humanURL": "http://www.xibo.org.uk",
+			"baseURL": "https:////api",
+			"tags": "Schedules",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/xibo/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Schedules",
+	"include": [
+		{
+			"name": "Urban Airship",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/urban-airship/apis.yaml"
+		},
+		{
+			"name": "SendGrid",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/sendgrid/apis.yaml"
+		},
+		{
+			"name": "Iron",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/iron/apis.yaml"
+		},
+		{
+			"name": "Xignite",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/xignite/apis.yaml"
+		},
+		{
+			"name": "511 Bay Area",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/511-bay-area/apis.yaml"
+		},
+		{
+			"name": "Aladtec",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/aladtec/apis.yaml"
+		},
+		{
+			"name": "AppointmentPlus",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/appointmentplus/apis.yaml"
+		},
+		{
+			"name": "PBS",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/pbs/apis.yaml"
+		},
+		{
+			"name": "Shiftboard",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/shiftboard/apis.yaml"
+		},
+		{
+			"name": "Site24x7",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/site24x7/apis.yaml"
+		},
+		{
+			"name": "TickSpot",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/tickspot/apis.yaml"
+		},
+		{
+			"name": "ShiftPlanning",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/shiftplanning/apis.yaml"
+		},
+		{
+			"name": "MINDBODY",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/mindbody/apis.yaml"
+		},
+		{
+			"name": "ServiceM8",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/servicem8/apis.yaml"
+		},
+		{
+			"name": "Buffer",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/buffer/apis.yaml"
+		},
+		{
+			"name": "SnapAppointments",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/snapappointments/apis.yaml"
+		},
+		{
+			"name": "Washington Metropolitan Area Transit Authority",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/washington-metropolitan-area-transit-authority/apis.yaml"
+		},
+		{
+			"name": "Texteo",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/texteo/apis.yaml"
+		},
+		{
+			"name": "Cobot",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/cobot/apis.yaml"
+		},
+		{
+			"name": "USC Schedule of Classes",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/usc-schedule-of-classes/apis.yaml"
+		},
+		{
+			"name": "Shotgun",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/shotgun/apis.yaml"
+		},
+		{
+			"name": "University of Washington",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/university-of-washington/apis.yaml"
+		},
+		{
+			"name": "University of Southern California",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/university-of-southern-california/apis.yaml"
+		},
+		{
+			"name": "Bizimply",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/bizimply/apis.yaml"
+		},
+		{
+			"name": "EasyCron",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/easycron/apis.yaml"
+		},
+		{
+			"name": "Acuity Scheduling",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/acuity-scheduling/apis.yaml"
+		},
+		{
+			"name": "Data.Gov",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/data-gov/apis.yaml"
+		},
+		{
+			"name": "Pingup",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/pingup/apis.yaml"
+		},
+		{
+			"name": "Open Bank Project",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/open-bank-project/apis.yaml"
+		},
+		{
+			"name": "VictorOps",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/victorops/apis.yaml"
+		},
+		{
+			"name": "AWS Storage Gateway Service",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/aws-storage-gateway-service/apis.yaml"
+		},
+		{
+			"name": "AWS Config",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/aws-config/apis.yaml"
+		},
+		{
+			"name": "AWS Key Management Service",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/aws-key-management-service/apis.yaml"
+		},
+		{
+			"name": "AWS Device Farm",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/aws-device-farm/apis.yaml"
+		},
+		{
+			"name": "AWS EC2",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/aws-ec2/apis.yaml"
+		},
+		{
+			"name": "AWS Auto Scaling",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/aws-auto-scaling/apis.yaml"
+		},
+		{
+			"name": "Azure Automation",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/azure-automation/apis.yaml"
+		},
+		{
+			"name": "Azure DevTest Labs",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/azure-devtest-labs/apis.yaml"
+		},
+		{
+			"name": "Azure Redis Cache",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/azure-redis-cache/apis.yaml"
+		},
+		{
+			"name": "Azure Scheduler",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/azure-scheduler/apis.yaml"
+		},
+		{
+			"name": "Steem",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/steem/apis.yaml"
+		},
+		{
+			"name": "Amadeus",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/amadeus/apis.yaml"
+		},
+		{
+			"name": "Avaza",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/avaza/apis.yaml"
+		},
+		{
+			"name": "Lufthansa",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/lufthansa/apis.yaml"
+		},
+		{
+			"name": "Netatmo",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/netatmo/apis.yaml"
+		},
+		{
+			"name": "PayRun",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/payrun/apis.yaml"
+		},
+		{
+			"name": "Rebilly",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/rebilly/apis.yaml"
+		},
+		{
+			"name": "Transport for London Unified",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/transport-for-london-unified/apis.yaml"
+		},
+		{
+			"name": "BBC",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/bbc/apis.yaml"
+		},
+		{
+			"name": "OnSched",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/onsched/apis.yaml"
+		},
+		{
+			"name": "Predix",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/predix/apis.yaml"
+		},
+		{
+			"name": "Bookeo",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/bookeo/apis.yaml"
+		},
+		{
+			"name": "RingCentral",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/ringcentral/apis.yaml"
+		},
+		{
+			"name": "Dezrez",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/dezrez/apis.yaml"
+		},
+		{
+			"name": "Xibo",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/xibo/apis.yaml"
+		}
+	]
+}

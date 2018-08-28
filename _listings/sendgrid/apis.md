@@ -7,13 +7,13 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgr
 x-kinRank: "9"
 x-alexaRank: "10000"
 tags: Schedules
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/sendgrid/apis.md
 specificationVersion: "0.14"
 apis:
-- name: SendGrid Delete Campaigns Campaign  Schedules
-  x-api-slug: sendgrid
+- name: SendGrid - Delete Campaigns Campaign  Schedules
+  x-api-slug: campaignscampaign-idschedules-delete
   description: |-
     **This endpoint allows you to unschedule a campaign that has already been scheduled to be sent.**
 
@@ -25,13 +25,14 @@ apis:
     * [User Guide > Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html)
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//campaigns/{campaign_id}/schedules
-  tags: Email,Campaigns, Campaign, , Schedules
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/sendgrid/campaignscampaign-idschedules-delete-openapi.md
-- name: SendGrid Get Campaigns Campaign  Schedules
-  x-api-slug: sendgrid
+- name: SendGrid - Get Campaigns Campaign  Schedules
+  x-api-slug: campaignscampaign-idschedules-get
   description: |-
     **This endpoint allows you to retrieve the date and time that the given campaign has been scheduled to be sent.**
 
@@ -40,15 +41,16 @@ apis:
     * [User Guide > Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html)
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//campaigns/{campaign_id}/schedules
-  tags: Email,Campaigns, Campaign, , Schedules
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/sendgrid/campaignscampaign-idschedules-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/sendgrid/campaignscampaign-idschedules-get-openapi.md
-- name: SendGrid Patch Campaigns Campaign  Schedules
-  x-api-slug: sendgrid
+- name: SendGrid - Patch Campaigns Campaign  Schedules
+  x-api-slug: campaignscampaign-idschedules-patch
   description: |-
     **This endpoint allows to you change the scheduled time and date for a campaign to be sent.**
 
@@ -57,13 +59,14 @@ apis:
     * [User Guide > Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html)
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//campaigns/{campaign_id}/schedules
-  tags: Email,Campaigns, Campaign, , Schedules
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/sendgrid/campaignscampaign-idschedules-patch-openapi.md
-- name: SendGrid Add Campaigns Campaign  Schedules
-  x-api-slug: sendgrid
+- name: SendGrid - Add Campaigns Campaign  Schedules
+  x-api-slug: campaignscampaign-idschedules-post
   description: |-
     **This endpoint allows you to schedule a specific date and time for your campaign to be sent.**
 
@@ -72,13 +75,14 @@ apis:
     * [User Guide > Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html)
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//campaigns/{campaign_id}/schedules
-  tags: Email,Campaigns, Campaign, , Schedules
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/sendgrid/campaignscampaign-idschedules-post-openapi.md
-- name: SendGrid Add Campaigns Campaign  Schedules Now
-  x-api-slug: sendgrid
+- name: SendGrid - Add Campaigns Campaign  Schedules Now
+  x-api-slug: campaignscampaign-idschedulesnow-post
   description: |-
     **This endpoint allows you to immediately send a campaign at the time you make the API call.**
 
@@ -89,13 +93,14 @@ apis:
     * [User Guide > Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html)
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//campaigns/{campaign_id}/schedules/now
-  tags: Email,Campaigns, Campaign, , Schedules, Now
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/sendgrid/campaignscampaign-idschedulesnow-post-openapi.md
-- name: SendGrid Add Campaigns Campaign  Schedules Test
-  x-api-slug: sendgrid
+- name: SendGrid - Add Campaigns Campaign  Schedules Test
+  x-api-slug: campaignscampaign-idschedulestest-post
   description: |-
     **This endpoint allows you to send a test campaign.**
 
@@ -106,27 +111,238 @@ apis:
     * [User Guide > Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html)
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//campaigns/{campaign_id}/schedules/test
-  tags: Email,Campaigns, Campaign, , Schedules, Test
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/sendgrid/campaignscampaign-idschedulestest-post-openapi.md
-- name: SendGrid
-  x-api-slug: sendgrid
-  description: SendGrids cloud-based email infrastructure relieves businesses of the
-    cost and complexity of maintaining custom email systems. SendGrid provides reliable
-    delivery, scalability and real-time analytics along with flexible APIs that make
-    custom integration a breeze.
+- name: SendGrid - Get User Scheduled Sends
+  x-api-slug: userscheduled-sends-get
+  description: |-
+    **This endpoint allows you to retrieve all cancel/paused scheduled send information.**
+
+    The Cancel Scheduled Sends feature allows the customer to cancel a scheduled send based on a Batch ID included in the SMTPAPI header. Scheduled sends cancelled less than 10 minutes before the scheduled time are not guaranteed to be cancelled.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3
-  tags: Schedules
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/sendgrid/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/sendgrid/userscheduled-sends-get-openapi.md
+- name: SendGrid - Add User Scheduled Sends
+  x-api-slug: userscheduled-sends-post
+  description: |-
+    **This endpoint allows you to cancel or pause an email that has been scheduled to be sent.**
+
+    If the maximum number of cancellations/pauses are added, HTTP 400 will
+    be returned.
+
+    The Cancel Scheduled Sends feature allows the customer to cancel a scheduled send based on a Batch ID included in the SMTPAPI header. Scheduled sends cancelled less than 10 minutes before the scheduled time are not guaranteed to be cancelled.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/sendgrid/userscheduled-sends-post-openapi.md
+- name: SendGrid - Delete User Scheduled Sends Batch
+  x-api-slug: userscheduled-sendsbatch-id-delete
+  description: |-
+    **This endpoint allows you to delete the cancellation/pause of a scheduled send.**
+
+    The Cancel Scheduled Sends feature allows the customer to cancel a scheduled send based on a Batch ID included in the SMTPAPI header. Scheduled sends cancelled less than 10 minutes before the scheduled time are not guaranteed to be cancelled.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/sendgrid/userscheduled-sendsbatch-id-delete-openapi.md
+- name: SendGrid - Get User Scheduled Sends Batch
+  x-api-slug: userscheduled-sendsbatch-id-get
+  description: |-
+    **This endpoint allows you to retrieve the cancel/paused scheduled send information for a specific `batch_id`.**
+
+    The Cancel Scheduled Sends feature allows the customer to cancel a scheduled send based on a Batch ID included in the SMTPAPI header. Scheduled sends cancelled less than 10 minutes before the scheduled time are not guaranteed to be cancelled.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/sendgrid/userscheduled-sendsbatch-id-get-openapi.md
+- name: SendGrid - Patch User Scheduled Sends Batch
+  x-api-slug: userscheduled-sendsbatch-id-patch
+  description: |-
+    **This endpoint allows you to update the status of a scheduled send for the given `batch_id`.**
+
+    The Cancel Scheduled Sends feature allows the customer to cancel a scheduled send based on a Batch ID included in the SMTPAPI header. Scheduled sends cancelled less than 10 minutes before the scheduled time are not guaranteed to be cancelled.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/sendgrid/userscheduled-sendsbatch-id-patch-openapi.md
+- name: SendGrid - Get User Scheduled Sends
+  x-api-slug: userscheduled-sends-get
+  description: |-
+    **This endpoint allows you to retrieve all cancel/paused scheduled send information.**
+
+    The Cancel Scheduled Sends feature allows the customer to cancel a scheduled send based on a Batch ID included in the SMTPAPI header. Scheduled sends cancelled less than 10 minutes before the scheduled time are not guaranteed to be cancelled.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/sendgrid/userscheduled-sends-get-openapi.md
+- name: SendGrid - Add User Scheduled Sends
+  x-api-slug: userscheduled-sends-post
+  description: |-
+    **This endpoint allows you to cancel or pause an email that has been scheduled to be sent.**
+
+    If the maximum number of cancellations/pauses are added, HTTP 400 will
+    be returned.
+
+    The Cancel Scheduled Sends feature allows the customer to cancel a scheduled send based on a Batch ID included in the SMTPAPI header. Scheduled sends cancelled less than 10 minutes before the scheduled time are not guaranteed to be cancelled.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/sendgrid/userscheduled-sends-post-openapi.md
+- name: SendGrid - Delete User Scheduled Sends Batch
+  x-api-slug: userscheduled-sendsbatch-id-delete
+  description: |-
+    **This endpoint allows you to delete the cancellation/pause of a scheduled send.**
+
+    The Cancel Scheduled Sends feature allows the customer to cancel a scheduled send based on a Batch ID included in the SMTPAPI header. Scheduled sends cancelled less than 10 minutes before the scheduled time are not guaranteed to be cancelled.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/sendgrid/userscheduled-sendsbatch-id-delete-openapi.md
+- name: SendGrid - Get User Scheduled Sends Batch
+  x-api-slug: userscheduled-sendsbatch-id-get
+  description: |-
+    **This endpoint allows you to retrieve the cancel/paused scheduled send information for a specific `batch_id`.**
+
+    The Cancel Scheduled Sends feature allows the customer to cancel a scheduled send based on a Batch ID included in the SMTPAPI header. Scheduled sends cancelled less than 10 minutes before the scheduled time are not guaranteed to be cancelled.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/sendgrid/userscheduled-sendsbatch-id-get-openapi.md
+- name: SendGrid - Patch User Scheduled Sends Batch
+  x-api-slug: userscheduled-sendsbatch-id-patch
+  description: |-
+    **This endpoint allows you to update the status of a scheduled send for the given `batch_id`.**
+
+    The Cancel Scheduled Sends feature allows the customer to cancel a scheduled send based on a Batch ID included in the SMTPAPI header. Scheduled sends cancelled less than 10 minutes before the scheduled time are not guaranteed to be cancelled.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/sendgrid/userscheduled-sendsbatch-id-patch-openapi.md
+- name: SendGrid - Patch User Scheduled Sends Batch
+  x-api-slug: userscheduled-sendsbatch-id-patch
+  description: |-
+    **This endpoint allows you to update the status of a scheduled send for the given `batch_id`.**
+
+    The Cancel Scheduled Sends feature allows the customer to cancel a scheduled send based on a Batch ID included in the SMTPAPI header. Scheduled sends cancelled less than 10 minutes before the scheduled time are not guaranteed to be cancelled.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/sendgrid/userscheduled-sendsbatch-id-patch-openapi.md
+- name: SendGrid - Get User Scheduled Sends Batch
+  x-api-slug: userscheduled-sendsbatch-id-get
+  description: |-
+    **This endpoint allows you to retrieve the cancel/paused scheduled send information for a specific `batch_id`.**
+
+    The Cancel Scheduled Sends feature allows the customer to cancel a scheduled send based on a Batch ID included in the SMTPAPI header. Scheduled sends cancelled less than 10 minutes before the scheduled time are not guaranteed to be cancelled.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/sendgrid/userscheduled-sendsbatch-id-get-openapi.md
+- name: SendGrid - Delete User Scheduled Sends Batch
+  x-api-slug: userscheduled-sendsbatch-id-delete
+  description: |-
+    **This endpoint allows you to delete the cancellation/pause of a scheduled send.**
+
+    The Cancel Scheduled Sends feature allows the customer to cancel a scheduled send based on a Batch ID included in the SMTPAPI header. Scheduled sends cancelled less than 10 minutes before the scheduled time are not guaranteed to be cancelled.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/sendgrid/userscheduled-sendsbatch-id-delete-openapi.md
+- name: SendGrid - Add User Scheduled Sends
+  x-api-slug: userscheduled-sends-post
+  description: |-
+    **This endpoint allows you to cancel or pause an email that has been scheduled to be sent.**
+
+    If the maximum number of cancellations/pauses are added, HTTP 400 will
+    be returned.
+
+    The Cancel Scheduled Sends feature allows the customer to cancel a scheduled send based on a Batch ID included in the SMTPAPI header. Scheduled sends cancelled less than 10 minutes before the scheduled time are not guaranteed to be cancelled.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/sendgrid/userscheduled-sends-post-openapi.md
+- name: SendGrid - Get User Scheduled Sends
+  x-api-slug: userscheduled-sends-get
+  description: |-
+    **This endpoint allows you to retrieve all cancel/paused scheduled send information.**
+
+    The Cancel Scheduled Sends feature allows the customer to cancel a scheduled send based on a Batch ID included in the SMTPAPI header. Scheduled sends cancelled less than 10 minutes before the scheduled time are not guaranteed to be cancelled.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/schedules/master/_listings/sendgrid/userscheduled-sends-get-openapi.md
 x-common:
 - type: x--net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html
+- type: x-api-gallery
+  url: http://school.digger.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://sendgrid.stack.network
 - type: x-base
   url: https://api.sendgrid.com
 - type: x-blog
